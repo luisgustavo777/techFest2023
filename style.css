@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: #00242b;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.voltarAoTopo {
+    position: fixed;
+    z-index: 1000;
+    right: 10px;
+    bottom: 15rem;
+}
+
+.voltarAoTopo a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1px;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    list-style-type: none;
+    color: teal;
+}
+
+.listaUl {
+    display: flex;
+    gap: 14rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+}
+
+.data h3 {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.data p {
+    display: flex;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btnCabecalho {
+    text-decoration: none;
+    color: aqua;
+    background-color: #014350;
+    padding: 3px;
+    border-radius: 6px;
+}
+
+.gridEquipe img {
+    filter: blur(3px);
+}
+
+.gridEquipe h1 {
+    position: absolute;
+    top: 30%;
+    font-size: 4rem;
+    left: 26rem;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
