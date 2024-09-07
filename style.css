@@ -248,7 +248,7 @@ html {
 
 .inscricao {
     display: flex;
-    background-image: url(formimg.jpg);
+    background-color: #00242b;
     background-repeat: no-repeat;
     height: 50rem;
     justify-content: center;
