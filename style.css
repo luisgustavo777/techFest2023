@@ -179,3 +179,68 @@ html {
     font-size: 2rem;
     top: 30rem;
 }
+
+.timelineDiv {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    height: 50rem;
+}
+
+.timelineDiv h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    top: 65rem;
+    position: absolute;
+    left: 33rem;
+    background: linear-gradient(135deg, #8e44ad, #2980b9, #e74c3c, #f39c12);
+    border-radius: 0.6rem;
+    padding: 1rem;
+}
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    top: 15rem;
+}
+
+.event {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.event::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: #3498db;
+    border-radius: 50%;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #3498db;
+}
+
+.timeline h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.timeline p {
+    font-size: 16px;
+    color: #666;
+}
