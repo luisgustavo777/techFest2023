@@ -58,21 +58,92 @@ html {
 
 .btnCabecalho {
     text-decoration: none;
-    color: aqua;
+    color: chartreuse;
     background-color: #014350;
     padding: 3px;
     border-radius: 6px;
 }
 
-.gridEquipe img {
+.inicio img {
     filter: blur(3px);
 }
 
-.gridEquipe h1 {
+.inicio h1 {
     position: absolute;
-    top: 30%;
-    font-size: 4rem;
-    left: 26rem;
+    top: 22%;
+    font-size: 3rem;
+    left: 32rem;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gridEquipe {
+    display: grid;
+    width: 97rem;
+    height: 32rem;
+    position: absolute;
+    top: 16rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    justify-items: center;
+}
+
+.gridEquipe img {
+    border-radius: 2rem;
+}
+
+.gridEquipe h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: black;
+}
+
+.praDentro {
+    position: absolute;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 55rem; 
+}
+
+.praFora {
+    position: absolute;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    right: 55rem;   
+}
+
+.praForaIdade1 {
+    position: absolute;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    right: 57rem;
+    top: 4rem;
+
+}
+
+.praForaIdade2 {
+    position: absolute;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    right: 61rem;
+    top: 25rem;
+
+}
+
+.praDentroIdade1 {
+    position: absolute;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 58rem;
+    top: 4rem;
+
+}
+
+.praDentroIdade2 {
+    position: absolute;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 60rem;
+    top: 25rem;
+
 }
